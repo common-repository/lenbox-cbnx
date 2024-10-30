@@ -1,0 +1,415 @@
+# Copyright (C) 2021 Lenbox
+# This file is distributed under the GPL2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Lenbox Paiement plusieurs fois 3.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/lenbox-cbnx\n"
+"POT-Creation-Date: 2024-08-13T13:00:47+00:00\n"
+"PO-Revision-Date: 2024-08-13 15:01+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Domain: lenbox-cbnx\n"
+
+#. Plugin Name of the plugin
+msgid "Lenbox Paiement plusieurs fois"
+msgstr "Lenbox Paiement plusieurs fois"
+
+#. Description of the plugin
+msgid "Allows users to demand EMI from Lenbox and it's partner FLOA"
+msgstr ""
+"Permet de faire des paiements plusieurs fois avec le module Lenbox et leur "
+"partenaire FLOA Bank"
+
+#. Author of the plugin
+msgid "Lenbox"
+msgstr "Lenbox"
+
+#. Author URI of the plugin
+msgid "https://www.lenbox.io/"
+msgstr "https://www.lenbox.io/"
+
+#: includes/lbx-carte/config.php:8 includes/lbx-cbnx/config.php:8
+msgid "Client ID / VD"
+msgstr "Client ID / VD"
+
+#: includes/lbx-carte/config.php:12 includes/lbx-cbnx/config.php:12
+msgid "Authkey"
+msgstr "AuthKey"
+
+#: includes/lbx-carte/config.php:16 includes/lbx-cbnx/config.php:16
+msgid "Use test environment"
+msgstr "Utiliser le mode test"
+
+#: includes/lbx-carte/config.php:23
+msgid "Text displayed for Lenbox when choosing payment method"
+msgstr "Titre affiché sur votre page de paiement"
+
+#: includes/lbx-carte/config.php:26 includes/lbx-cbnx/config.php:34
+msgid "Paiement en plusieurs fois"
+msgstr "Paiement en plusieurs fois"
+
+#: includes/lbx-carte/config.php:30 includes/lbx-cbnx/config.php:38
+msgid "Description"
+msgstr "Description"
+
+#: includes/lbx-carte/config.php:32
+msgid "Description when user chooses lenbox as payment option"
+msgstr ""
+"Ceci modifie le texte que le client voit durant son processus de paiement"
+
+#: includes/lbx-carte/config.php:33
+msgid "Request an EMI with Lenbox."
+msgstr "Demande un paiement plusieurs fois avec Lenbox."
+
+#: includes/lbx-carte/gateway.php:33
+msgid "Lenbox Carte Gateway"
+msgstr "Lenbox module de paiement : Paiement par carte"
+
+#: includes/lbx-carte/gateway.php:34
+msgid "Paiement par carte"
+msgstr "Paiement par carte"
+
+#: includes/lbx-cbnx/config.php:23
+msgid "Show Eligibilities"
+msgstr "Montrez les options dans la page du produit"
+
+#: includes/lbx-cbnx/config.php:31
+msgid "Nom affiché au client"
+msgstr "Nom affiché au client"
+
+#: includes/lbx-cbnx/config.php:40
+msgid "Description du paiement destinée au client"
+msgstr "Description du paiement destinée au client"
+
+#: includes/lbx-cbnx/config.php:41
+msgid "Payer en plusieurs fois"
+msgstr "Payer en plusieurs fois"
+
+#: includes/lbx-cbnx/config.php:44
+msgid "Afficher les options disponible"
+msgstr ""
+"Les clients peuvent choisir le produit (3X/4X/..) depuis la page de paiement"
+
+#: includes/lbx-cbnx/config.php:46
+msgid ""
+"Les clients peuvent choisir le produit (3X/4X/..) depuis la page de paiement"
+msgstr ""
+"Les clients peuvent choisir le produit (3X/4X/..) depuis la page de paiement"
+
+#: includes/lbx-cbnx/config.php:51 includes/lbx-cbnx/config.php:58
+#: includes/lbx-cbnx/config.php:66 includes/lbx-cbnx/config.php:74
+#: includes/lbx-cbnx/config.php:81 includes/lbx-cbnx/config.php:89
+#: includes/lbx-cbnx/config.php:97 includes/lbx-cbnx/config.php:104
+#: includes/lbx-cbnx/config.php:112 includes/lbx-cbnx/config.php:120
+#: includes/lbx-cbnx/config.php:127 includes/lbx-cbnx/config.php:135
+#: includes/lbx-cbnx/config.php:143 includes/lbx-cbnx/config.php:150
+#: includes/lbx-cbnx/config.php:158 includes/lbx-cbnx/config.php:166
+#: includes/lbx-cbnx/config.php:173 includes/lbx-cbnx/config.php:180
+#: includes/lbx-cbnx/config.php:189 includes/lbx-cbnx/config.php:196
+#: includes/lbx-cbnx/config.php:204 includes/lbx-cbnx/config.php:212
+#: includes/lbx-cbnx/config.php:219 includes/lbx-cbnx/config.php:227
+#: includes/lbx-cbnx/config.php:236 includes/lbx-cbnx/config.php:243
+#: includes/lbx-cbnx/config.php:251 includes/lbx-cbnx/config.php:259
+#: includes/lbx-cbnx/config.php:266 includes/lbx-cbnx/config.php:274
+#: includes/lbx-cbnx/config.php:283 includes/lbx-cbnx/config.php:290
+#: includes/lbx-cbnx/config.php:298 includes/lbx-cbnx/config.php:306
+#: includes/lbx-cbnx/config.php:313 includes/lbx-cbnx/config.php:321
+msgid "Paiment en"
+msgstr "Paiment en"
+
+#: includes/lbx-cbnx/config.php:51 includes/lbx-cbnx/config.php:97
+#: includes/lbx-cbnx/config.php:120 includes/lbx-cbnx/config.php:143
+#: includes/lbx-cbnx/config.php:146 includes/lbx-cbnx/config.php:189
+#: includes/lbx-cbnx/config.php:192 includes/lbx-cbnx/config.php:200
+#: includes/lbx-cbnx/config.php:208 includes/lbx-cbnx/config.php:212
+#: includes/lbx-cbnx/config.php:236 includes/lbx-cbnx/config.php:239
+#: includes/lbx-cbnx/config.php:247 includes/lbx-cbnx/config.php:255
+#: includes/lbx-cbnx/config.php:259 includes/lbx-cbnx/config.php:283
+#: includes/lbx-cbnx/config.php:286 includes/lbx-cbnx/config.php:294
+#: includes/lbx-cbnx/config.php:302 includes/lbx-cbnx/config.php:306
+msgid "avec frais"
+msgstr "avec frais"
+
+#: includes/lbx-cbnx/config.php:54 includes/lbx-cbnx/config.php:77
+#: includes/lbx-cbnx/config.php:100 includes/lbx-cbnx/config.php:123
+#: includes/lbx-cbnx/config.php:146 includes/lbx-cbnx/config.php:169
+#: includes/lbx-cbnx/config.php:192 includes/lbx-cbnx/config.php:215
+#: includes/lbx-cbnx/config.php:239 includes/lbx-cbnx/config.php:262
+#: includes/lbx-cbnx/config.php:286 includes/lbx-cbnx/config.php:309
+msgid "Activer le paiement en"
+msgstr "Activer le paiement en"
+
+#: includes/lbx-cbnx/config.php:58 includes/lbx-cbnx/config.php:81
+#: includes/lbx-cbnx/config.php:104 includes/lbx-cbnx/config.php:127
+#: includes/lbx-cbnx/config.php:150 includes/lbx-cbnx/config.php:173
+#: includes/lbx-cbnx/config.php:196 includes/lbx-cbnx/config.php:219
+#: includes/lbx-cbnx/config.php:243 includes/lbx-cbnx/config.php:266
+#: includes/lbx-cbnx/config.php:290 includes/lbx-cbnx/config.php:313
+msgid "Seuil minimum"
+msgstr "Seuil minimum"
+
+#: includes/lbx-cbnx/config.php:62 includes/lbx-cbnx/config.php:85
+#: includes/lbx-cbnx/config.php:108 includes/lbx-cbnx/config.php:131
+#: includes/lbx-cbnx/config.php:154 includes/lbx-cbnx/config.php:176
+#: includes/lbx-cbnx/config.php:200 includes/lbx-cbnx/config.php:223
+#: includes/lbx-cbnx/config.php:247 includes/lbx-cbnx/config.php:270
+#: includes/lbx-cbnx/config.php:294 includes/lbx-cbnx/config.php:317
+msgid "Montant minimum pour afficher le paiement en"
+msgstr "Montant minimum pour afficher le paiement en"
+
+#: includes/lbx-cbnx/config.php:66 includes/lbx-cbnx/config.php:89
+#: includes/lbx-cbnx/config.php:112 includes/lbx-cbnx/config.php:135
+#: includes/lbx-cbnx/config.php:158 includes/lbx-cbnx/config.php:180
+#: includes/lbx-cbnx/config.php:204 includes/lbx-cbnx/config.php:227
+#: includes/lbx-cbnx/config.php:251 includes/lbx-cbnx/config.php:274
+#: includes/lbx-cbnx/config.php:298 includes/lbx-cbnx/config.php:321
+msgid "Seuil maximum"
+msgstr "Seuil maximum"
+
+#: includes/lbx-cbnx/config.php:70 includes/lbx-cbnx/config.php:93
+#: includes/lbx-cbnx/config.php:116 includes/lbx-cbnx/config.php:139
+#: includes/lbx-cbnx/config.php:162 includes/lbx-cbnx/config.php:184
+#: includes/lbx-cbnx/config.php:208 includes/lbx-cbnx/config.php:231
+#: includes/lbx-cbnx/config.php:255 includes/lbx-cbnx/config.php:278
+#: includes/lbx-cbnx/config.php:302 includes/lbx-cbnx/config.php:325
+msgid "Montant maximum pour afficher le paiement en"
+msgstr "Montant maximum pour afficher le paiement en"
+
+#: includes/lbx-cbnx/config.php:74 includes/lbx-cbnx/config.php:123
+#: includes/lbx-cbnx/config.php:166 includes/lbx-cbnx/config.php:169
+#: includes/lbx-cbnx/config.php:215 includes/lbx-cbnx/config.php:223
+#: includes/lbx-cbnx/config.php:231 includes/lbx-cbnx/config.php:262
+#: includes/lbx-cbnx/config.php:270 includes/lbx-cbnx/config.php:278
+#: includes/lbx-cbnx/config.php:309 includes/lbx-cbnx/config.php:317
+#: includes/lbx-cbnx/config.php:325
+msgid "sans frais"
+msgstr "sans frais"
+
+#: includes/lbx-cbnx/gateway.php:31
+msgid "Lenbox CBNX Gateway"
+msgstr "Lenbox module de paiement : Paiement plusieurs fois"
+
+#: includes/lbx-cbnx/gateway.php:32
+msgid "Paiement plusieurs fois"
+msgstr "Paiement plusieurs fois"
+
+#: includes/lbx-cbnx/gateway.php:52 includes/lbx-cbnx/gateway.php:59
+msgid "Pay in 3"
+msgstr "Paiement en 3 fois"
+
+#: includes/lbx-cbnx/gateway.php:66 includes/lbx-cbnx/gateway.php:73
+msgid "Pay in 4"
+msgstr "Paiement en 4 fois"
+
+#: includes/lbx-cbnx/gateway.php:80 includes/lbx-cbnx/gateway.php:87
+msgid "Pay in 10"
+msgstr "Paiement en 10 fois"
+
+#: includes/lbx-cbnx/gateway.php:94 includes/lbx-cbnx/gateway.php:101
+msgid "Pay in 12"
+msgstr "Paiement en 12 fois"
+
+#: includes/lbx-cbnx/gateway.php:108 includes/lbx-cbnx/gateway.php:115
+msgid "Pay in 24"
+msgstr "Paiement en 24 fois"
+
+#: includes/lbx-cbnx/gateway.php:122 includes/lbx-cbnx/gateway.php:129
+msgid "Pay in 36"
+msgstr "Paiement en 36 fois"
+
+#: includes/lbx-cbnx/gateway.php:199
+msgid "Type de demande"
+msgstr "Type de demande"
+
+#: includes/lbxGateway.php:46 includes/lbxGateway.php:83
+msgid "Connection error."
+msgstr "Erreur connexion."
+
+#: includes/lbxGateway.php:91
+msgid "Payment Failed"
+msgstr "Echec Payment"
+
+#: lenbox-cbnx.php:36
+msgid "Orders"
+msgstr "Commandes"
+
+#: lenbox-cbnx.php:48
+msgid "Transactions"
+msgstr "Transactions"
+
+#. translators: 1. URL link.
+#: lenbox-cbnx.php:68
+msgid ""
+"Lenbox Paiement plusieurs fois requires WooCommerce to be installed and "
+"active. You can download %s here."
+msgstr ""
+"Lenbox Paiement plusieurs fois requires WooCommerce to be installed and "
+"active. You can download %s here."
+
+#: lenbox-cbnx.php:230
+msgid "Refresh Status for Lenbox Orders"
+msgstr "Lenbox: Mettez à jour les statuts"
+
+#: views/order_table.php:15
+msgid "order"
+msgstr "commande"
+
+#: views/order_table.php:16
+msgid "orders"
+msgstr "commandes"
+
+#: views/order_table.php:63
+msgid "Date"
+msgstr "Date"
+
+#: views/order_table.php:64
+msgid "Order ID"
+msgstr "ID de la demande"
+
+#: views/order_table.php:65
+msgid "Installment plan"
+msgstr "Mensualité"
+
+#: views/order_table.php:66
+msgid "First Name"
+msgstr "Prenom"
+
+#: views/order_table.php:67
+msgid "Last Name"
+msgstr "Nom"
+
+#: views/order_table.php:68
+msgid "Amount to finance"
+msgstr "Montant à financer"
+
+#: views/order_table.php:69
+msgid "Status"
+msgstr "Statut"
+
+#: views/order_table.php:130 views/order_table.php:136
+#: views/order_table.php:140
+msgid "Error: Cannot load data from lenbox. Please check your configuration"
+msgstr "Erreur : Impossible d'afficher les donnes. Valider votre configuration"
+
+#, fuzzy
+#~| msgid "Payment 3XG : Applicable minimum"
+#~ msgid "Paiment en 3XG : Seuil minimum"
+#~ msgstr "Seuil minimum (3X sans frais)"
+
+#, fuzzy
+#~| msgid "Payment 3XG : Applicable maximum"
+#~ msgid "Paiment en 3XG : Seuil maximum"
+#~ msgstr "Seuil maximum (3X sans frais)"
+
+#, fuzzy
+#~| msgid "Payment 4XP : Applicable minimum"
+#~ msgid "Paiment en 4XP : Seuil minimum"
+#~ msgstr "Seuil minimum (4X avec frais)"
+
+#, fuzzy
+#~| msgid "Payment 4XP : Applicable maximum"
+#~ msgid "Paiment en 4XP : Seuil maximum"
+#~ msgstr "Seuil maximum (3X sans frais)"
+
+#, fuzzy
+#~| msgid "Payment 4XP : Applicable minimum"
+#~ msgid "Paiment en 4X sans frais : Seuil minimum"
+#~ msgstr "Seuil minimum (4X avec frais)"
+
+#, fuzzy
+#~| msgid "Payment 4XP : Applicable maximum"
+#~ msgid "Paiment en 4X sans frais : Seuil maximum"
+#~ msgstr "Seuil maximum (3X sans frais)"
+
+#, fuzzy
+#~| msgid "Payment 10XP : Applicable minimum"
+#~ msgid "Paiment en 10XP : Seuil minimum"
+#~ msgstr "Seuil minimum (10X avec frais)"
+
+#, fuzzy
+#~| msgid "Payment 10XP : Applicable maximum"
+#~ msgid "Paiment en 10XP : Seuil maximum"
+#~ msgstr "Seuil maximum (10X avec frais)"
+
+#, fuzzy
+#~| msgid "Payment 10XG : Applicable minimum"
+#~ msgid "Paiment en 10XG : Seuil minimum"
+#~ msgstr "Seuil minimum (10X sans frais)"
+
+#, fuzzy
+#~| msgid "Payment 10XG : Applicable maximum"
+#~ msgid "Paiment en 10XG : Seuil maximum"
+#~ msgstr "Seuil maximum (10X avec frais)"
+
+#, fuzzy
+#~| msgid "Payment 12NXP : Applicable minimum"
+#~ msgid "Paiment en 12XP : Seuil minimum"
+#~ msgstr "Seuil minimum (12NX avec frais)"
+
+#, fuzzy
+#~| msgid "Payment 12NXP : Applicable maximum"
+#~ msgid "Paiment en 12XP : Seuil maximum"
+#~ msgstr "Seuil maximum (12NX avec frais)"
+
+#, fuzzy
+#~| msgid "Paiement en plusieurs fois"
+#~ msgid "Paiment en 12X san frais"
+#~ msgstr "Paiement en plusieurs fois"
+
+#, fuzzy
+#~| msgid "Payment 12NXG : Applicable minimum"
+#~ msgid "Paiment en 12XG : Seuil minimum"
+#~ msgstr "Seuil minimum (12NX sans frais)"
+
+#, fuzzy
+#~| msgid "Payment 12NXG : Applicable maximum"
+#~ msgid "Paiment en 12XG : Seuil maximum"
+#~ msgstr "Seuil maximum (12NX avec frais)"
+
+#~ msgid "Client label"
+#~ msgstr "Affichage Client"
+
+#~ msgid "Let client choose product on cart"
+#~ msgstr "Laissez les clients choisir le type de demande"
+
+#~ msgid "Payment 3X with charges"
+#~ msgstr "Paiement en 3X avec frais"
+
+#~ msgid "Payment 3X without charges"
+#~ msgstr "Paiement en 3X sans frais"
+
+#~ msgid "Payment 4X with charges"
+#~ msgstr "Paiement en 4X avec frais"
+
+#~ msgid "Payment 4X without charges"
+#~ msgstr "Paiement en 4X sans frais"
+
+#~ msgid "Payment 4XG : Applicable minimum"
+#~ msgstr "Seuil minimum (4X sans frais)"
+
+#~ msgid "Payment 4XG : Applicable maximum"
+#~ msgstr "Seuil maximum (4X avec frais)"
+
+#~ msgid "Payment 10X with charges"
+#~ msgstr "Paiement en 10X avec frais"
+
+#~ msgid "Payment 10X without charges"
+#~ msgstr "Paiement en 10X sans frais"
+
+#~ msgid "Payment 12NX with charges"
+#~ msgstr "Paiement en 12NX avec frais"
+
+#~ msgid "Payment 12NX without charges"
+#~ msgstr "Paiement en 12NX sans frais"
+
+#~ msgid "per month"
+#~ msgstr "par mois"
+
+#~ msgid "Demand Type"
+#~ msgstr "Type de demande"
